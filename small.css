@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&family=Alegreya:wght@900&family=B612+Mono:wght@400;700&family=Karla:wght@700&family=Varela+Round&display=swap');
+body{
+    margin: 0 auto;
+    max-width: 760px;
+}
+h1, footer, footer p a{
+    color: white;
+    border: 5px solid rgb(7, 79, 187);
+}
+header, footer, footer p a{
+    font-family: 'Varela Round', sans-serif;
+}
+h1, footer{
+    background-color: rgb(7, 79, 187);
+    border-radius: 10px;
+    text-align: center;
+}
+h1{
+    text-align:left;
+    padding: 30px;
+    font-size: 3em;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-family: 'Alegreya SC', Impact, serif;
+    border: 3px solid rgb(7, 79, 187);
+}
+h2{
+    color: #010D4A;
+}
+img{
+    float: right;
+    margin-right: 50px;
+    max-width: 200px;
+    height:auto;
+    border-radius: 5px;
+    padding: 20px
+    
+}
+
+hr{
+    margin-top: -15px;
+    max-width: 420px;
+    margin-left: 0px;
+
+}
+li a{
+    color: black;
+}
+.portal{
+    padding: 5px 5px 30px 50px;
+    font-family: 'Varela Round', sans-serif, serif;  
+}
+
+.copyright{
+
+    font-size: 0.9em;
+}
+.updatedDate {
+
+    font-size: 0.8em;
+}
+@media(max-width: 750px){
+    img{
+        float: right;
+        margin: 0px;
+    }
+    portal{
+        display: block;
+    }
+    footer{
+        margin-top: 100px;
+        
+    }
+}

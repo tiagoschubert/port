@@ -1,0 +1,17 @@
+@media(max-width: 550px){
+    h1{
+        text-align: center;
+    }
+    img{
+        float: none;
+        margin: 0 auto;
+        display: block;
+    }
+    .portal{
+        float: none;
+    } 
+    footer{
+        margin-top: 0px;
+       
+    }
+ }
