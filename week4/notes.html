@@ -130,6 +130,7 @@
             
             function makeHero(event){
                 event.preventDefault(); //prevents the form from being submitted
+                
                 const hero = {}; //empty object for hero
             
                 hero.name = form.heroName.value; //property name based on the input field's value
@@ -202,6 +203,7 @@
             }
             
             function random(a,b=1) {
+
               //if only one argument is provided, we need to swap the values of a and b
               if(b === 1) {
                 [a,b] = [b,a];
