@@ -32,8 +32,8 @@ img{
     margin-right: 50px;
     max-width: 200px;
     height:auto;
-    border-radius: 5px;
-    padding: 20px
+    border-radius: 15px;
+    
     
 }
 
@@ -44,8 +44,15 @@ hr{
     margin-left: 0px;
 
 }
+ol{
+    padding-bottom: 100px;
+}
+li{
+    padding:5px;
+}
 li a{
     color: black;
+    
 }
 .portal{
     padding: 5px 5px 30px 50px;
