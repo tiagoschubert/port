@@ -1,0 +1,65 @@
+
+body {
+    
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+main {
+    width:100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Hepta Slab', serif;
+}
+
+
+button {
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: .9em;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: 'Hepta Slab', serif;
+    cursor: pointer;
+    text-align: center;
+    padding: 1em;
+}
+
+.backbutton {
+    text-align: center;
+}
+.mainlist li {
+    padding: 0 .5em;
+    border-bottom: 1px solid white;
+    line-height: 2em;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1em;
+}
+
+.full-detail li{
+    border:none;
+}
+.pagination {
+    text-align: center;
+    width: 100%;
+}
+.hide {
+    display: none;
+}
+.show {
+    display:block;
+}
+.active {
+    color:yellow;
+}

@@ -27,6 +27,10 @@ const links = [
   label: "Week 07: Further Functions and Ajax",
   url: "week7/index.html"
 },
+{
+  label: "Week 08: Todo Challenge",
+  url: "week8/index.html"
+},
 ];
 
 var ol = document.querySelector("ol");
