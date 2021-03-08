@@ -31,6 +31,10 @@ const links = [
   label: "Week 08: CSS",
   url: "week8/index.html"
 },
+{
+  label: "Week 09: The Window Object and APIs",
+  url: "week9/index.html"
+},
 ];
 
 var ol = document.querySelector("ol");
