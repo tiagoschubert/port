@@ -12,7 +12,7 @@
 </head>
 <body>
         <div>
-                <h1>WEEK 09</h1>
+                <h1>WEEK 10</h1>
         </div>
     <nav>
         <li class="Team"><a href="team.html">Team Activity</a></li>
@@ -21,24 +21,43 @@
     </nav>
     
     
-      <h3>Validating forms and Using Fetch</h3>
+      <h2>Validating forms and Using Fetch</h2>
         <p>
-            
+                        Built-in form validation uses HTML5 form validation features.
         </p>
-        <h3></h3>
+       
             
                 <p> 
                     
+                        This week's reading is about using Fetch and Client-Side Form Validation.
+                </p>
+                <p> 
+                        Fetch polyfill can be used in browsers that don't support it
+                </p>
+                <p> 
+                        The simplest use of fetch() takes one argument and returns a promise containing the response (a Response object).
+                </p>
+                <h3>
+                        How to Check if my fetch was successful
 
+                </h3>
+                <p>
+                        An accurate check for a successful fetch() would include checking that the promise resolved, then checking that the Response.ok property has a value of true.
                 </p>
                 <p> 
-                    
-                </p>
-                <p> 
-                    
-                </p>
-                <p> 
-                    
+                        fetch('flowers.jpg') <br>
+                        .then(response => {     <br>
+                        if (!response.ok) {     <br>
+                        throw new Error('Network response was not ok');<br>
+                        }
+                        return response.blob();<br>
+                        })
+                        .then(myBlob => {<br>
+                        myImage.src = URL.createObjectURL(myBlob);<br>
+                        })
+                        .catch(error => {<br>
+                        console.error('There has been a problem with your fetch operation:', error);<br>
+                        });
                 </p>
            
         </li>
