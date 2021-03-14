@@ -35,6 +35,10 @@ const links = [
   label: "Week 09: The Window Object and APIs",
   url: "week9/index.html"
 },
+{
+  label: "Week 10: Validating forms and Using Fetch",
+  url: "week10/index.html"
+},
 ];
 
 var ol = document.querySelector("ol");
