@@ -39,6 +39,10 @@ const links = [
   label: "Week 10: Validating forms and Using Fetch",
   url: "week10/index.html"
 },
+{
+  label: "Week 11: ",
+  url: "week11/index.html"
+},
 ];
 
 var ol = document.querySelector("ol");
