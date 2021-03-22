@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+*   {
+    box-sizing: border-box; /*box sizing */
+}
+
+*::before, *::after{
+    box-sizing: border-box;
+}
+
+ul>li {
+    font-size: 2em;
+    list-style: none;
+    border: 2px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: #ffde00;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#allList {
+    padding: 0px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+html {
+    color: #181f52;
+    background-image: url(../../images/forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#myInput {
+    width: 95%;
+    height: 2em;
+    font-size: 1.6em;
+    margin: 100px 10px 10px 10px;
+}
+
+nav {
+    background-color: #ffde00;
+    width: 100%;
+    height:60px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 10;
+    border-bottom: 2px solid #181f52;
+}
+nav span {
+    font-size: 2em;
+    color:#181f52;
+    margin: auto 0;
+}
+
+ul#favoritesList {
+    padding-left: 0px;
+}
+
+.btnAdd {
+    background-color: #ee1515;
+    text-decoration: none;
+	color: white;
+	padding: 8px 25px;
+	display: inline-block;
+	position: relative;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom: 4px solid rgba(0,0,0,0.21);
+	border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    font-size: .5em;
+    margin-bottom: 5px;
+}
+
+.removeFavorite {
+    background-color: #ee1515;
+    text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom: 4px solid rgba(0,0,0,0.21);
+	border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    font-size: .4em;
+    margin-bottom: 5px;
+}
+
+#detailsbox {
+    text-align: center;
+    border: 2px solid;
+    transform: translateX(100vw);
+    transition: all 0.3s;
+    flex: 1 0 90vw;
+  }
+
+.active {
+    border-bottom: 4px solid #181f52;
+}
