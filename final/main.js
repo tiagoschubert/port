@@ -13,7 +13,7 @@ async function getFish(url) {
     let showMain = '';
     console.log(data)
     
-    if(dataResult==null){showMain ='<h3> Fish not found!</h3>'
+    if(dataResult == null){showMain ='<h3> Sorry, Fish not found!</h3>'
             main.innerHTML = showMain;}
 
     dataResult.forEach( data => {
@@ -29,6 +29,7 @@ async function getFish(url) {
                               
                                 ${data.Comments}
                                 </div>
+                                
                                 <p class="footer">Data taken from FishBase </p>
                             </div>
                             
