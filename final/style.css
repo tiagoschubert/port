@@ -104,13 +104,12 @@ body{
   width: 500px;
   left: 0;
   top: 120px;
-  font-size: 1em;
+  
   text-align: center;
   text-transform: uppercase;
   font-family: 'Fredoka One',cursive;
   color: #38b6ff;
-  z-index: 1;
-  transition: top .5s ease;
+  
 
 }
 
@@ -165,6 +164,7 @@ body{
   
   margin: auto;
   
+  
 
 }
 img{
@@ -189,24 +189,37 @@ h3{
   padding: 20px;
 }
 @media screen and (max-width: 900px) {
+  
+  /*
+  h1{
+    font-size: 1vw
+  }
+  h3{
+    font-size: 1vw
+  }*/
   .wrap{
     left: 0%;
+    width: auto;
   }
   .content{
     margin: 2px;
+    border: none;
+    box-shadow: none;
   }
   .container {
     position: relative;
     height: 400px;
     
-    
   }
+  .legend{
+    font-size: 2.5vw
+  }
+
   
 
   .searchTerm {
     width: 50%;
     border: 3px solid #38b6ff;
-    
     padding: 5px;
     height: 20px;
     border-radius: 5px 5px 5px 5px;
