@@ -17,7 +17,7 @@ body{
 }
 .content{
   width: auto;
-  margin: 120px;
+  
   margin: 150px;
   margin-top:3em; 
   border: 2px solid #38b6ffff;
@@ -119,8 +119,8 @@ body{
   left: 0;
   top: 120px;
   font-weight: 700;
-  font-size: 5vw;
   text-align: center;
+  font-size: 4em;
   text-transform: uppercase;
   font-family: 'Fredoka One',cursive;
   color: #38b6ff;
