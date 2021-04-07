@@ -46,6 +46,7 @@ hr{
 }
 ol{
     padding-bottom: 100px;
+    list-style-type: none;
 }
 li{
     padding:5px;

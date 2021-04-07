@@ -37,13 +37,9 @@ async function getFish(url) {
                             show = false;
             main.innerHTML = showMain;}
             
-            
-            
-            
+        
             
     });
-    
-        
     
     
 

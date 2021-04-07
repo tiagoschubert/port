@@ -11,9 +11,6 @@ body{
   font-family: 'Open Sans', sans-serif;
   
   
-  
-  
-  
 }
 .content{
   width: auto;
@@ -59,18 +56,6 @@ body{
   font-size: 20px;
 }
 
-/*
-.wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 42.5%;
-  transform: translate(-50%, -50%);
-}
-/*
-
-/*test
-*/
 
 .wrap{
   left: 28%;
@@ -90,7 +75,7 @@ body{
   
   height: 100%;
  
-  transition: background 0.5s ease;
+ 
 }
 
 .container:hover .overlay {
