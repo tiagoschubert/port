@@ -25,7 +25,7 @@ async function getFish(url) {
                             <img src="${data.image}" alt="${data.FBname}">
                             <div class="fish-info">
                                 <h3>${data.FBname}</h3>
-                                ${data.Comments}
+                                
                                 ${data.Comments}
                             </div>
                                 
