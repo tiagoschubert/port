@@ -78,7 +78,7 @@ body{
 
 .container {
   position: relative;
-  height: 400px;
+  min-height: 500px;
   
   
 }

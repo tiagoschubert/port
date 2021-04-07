@@ -6,6 +6,7 @@ const form = document.getElementById('form')
 const search = document.getElementById('search');
 const main = document.getElementById('main');
 let show = false;
+
 async function getFish(url) {
     const res = await fetch(url);
     const data = await res.json();
@@ -14,7 +15,8 @@ async function getFish(url) {
     console.log(data)
     
     if(dataResult == null){showMain ='<h3> Sorry, Fish not found!</h3>'
-            main.innerHTML = showMain;}
+                main.innerHTML = showMain;
+            }
 
     dataResult.forEach( data => {
         if(show == true){
@@ -23,28 +25,30 @@ async function getFish(url) {
                             <img src="${data.image}" alt="${data.FBname}">
                             <div class="fish-info">
                                 <h3>${data.FBname}</h3>
-                                
-                            
-                                Genus: ${data.Genus}<br>
-                              
                                 ${data.Comments}
-                                </div>
+                                ${data.Comments}
+                            </div>
                                 
                                 <p class="footer">Data taken from FishBase </p>
-                            </div>
+                    </div>
                             
       
   `;
-                            show =false;
+                            show = false;
             main.innerHTML = showMain;}
+            
+            
+            
+            
             
     });
     
         
     
-
+    
 
 }
+
 
 getFish(api_url1);
 form.addEventListener('submit', function (e) {
@@ -60,5 +64,6 @@ form.addEventListener('submit', function (e) {
     }
 
 })
+
   
-//test
+
