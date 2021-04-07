@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/*
+$oxford-blue: #092546ff;
+$baby-powder: #fffcf8ff;
+$blue-jeans: #38b6ffff;
+*/
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #38b6ff;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #38b6ff;
+  background: #38b6ff;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*
+h1{
+    font-family: 'Fredoka One',cursive;
+    color: #38b6ff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+*/
+/*test
+*/
+
+.container {
+  position: relative;
+  height: 300px;
+  margin-top:25%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: #f2f2f2;
+}
+
+img {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 0;
+}
+
+.title {
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Fredoka One',cursive;
+  color: #38b6ff;
+  z-index: 1;
+  transition: top .5s ease;
+  
+}
+
+.container:hover .title {
+  top: 0px;
+  font-size: 4em;
+}
+
+.button {
+  
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+@media screen and (max-width: 800px) {
+  }
+
+
+  /*testing
+  */
+  body {
+    color:black;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #06c356;
+    margin: 80px 0;
+  }
+  
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+  
+  .button1 {
+    font-size: 1em;
+    padding: 10px;
+    color: #06c356;
+    border: 2px solid #06D85F;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  .button:hover {
+    background: #06D85F;
+  }
+  
+  .overlays {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlays:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #06c356;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #06D85F;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
