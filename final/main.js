@@ -29,20 +29,14 @@ async function getFish(url) {
                                 ${data.Comments}
                             </div>
                                 
-                                <p class="footer">Data taken from FishBase </p>
-                    </div>
-                            
-      
-  `;
-                            show = false;
+                            <p class="footer">Data taken from FishBase </p>
+                    </div> `;
+            show = false;
             main.innerHTML = showMain;}
-            
-        
+                
             
     });
     
-    
-
 }
 
 
