@@ -5,11 +5,11 @@ const links = [
   },
   {
       label: "Week 02: Arrays, Logic, Loops, and Functions",
-      url: "#"
+      url: "week2/index.html"
   },
   {
     label: "Week 03: Objects, DOM, and Events",
-    url: "#"
+    url: "week3/index.html"
 },
 {
   label: "Week 04: Forms, OOP and, Modular Javascript",

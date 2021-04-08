@@ -14,9 +14,10 @@ async function getFish(url) {
     let showMain = '';
     console.log(data)
     
-    if(dataResult == null){showMain ='<h3> Sorry, Fish not found!</h3>'
-                main.innerHTML = showMain;
-            }
+    if( dataResult == null){
+        showMain ='<h3> Sorry, Fish not found!</h3>'
+        main.innerHTML = showMain;
+    }
 
     dataResult.forEach( data => {
         if(show == true){
