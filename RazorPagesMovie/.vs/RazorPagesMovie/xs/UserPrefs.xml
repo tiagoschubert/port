@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{98A90398-BCA2-41A4-9B9A-1E5A818A3C9B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RazorPagesMovie/wwwroot/css/site.css">
+    <Files>
+      <File FileName="RazorPagesMovie/Pages/Movies/Delete.cshtml.cs" Line="1" Column="1" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Details.cshtml" Line="18" Column="49" />
+      <File FileName="RazorPagesMovie/Data/RazorPagesMovieContext.cs" Line="1" Column="1" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Index.cshtml" Line="18" Column="9" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Index.cshtml.cs" Line="52" Column="48" />
+      <File FileName="RazorPagesMovie/Program.cs" Line="32" Column="1" />
+      <File FileName="RazorPagesMovie/Models/Movie.cs" Line="39" Column="43" />
+      <File FileName="RazorPagesMovie/Models/SeedData.cs" Line="29" Column="39" />
+      <File FileName="RazorPagesMovie/Pages/Movies/Create.cshtml" Line="1" Column="1" />
+      <File FileName="RazorPagesMovie/wwwroot/css/site.css" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RazorPagesMovie" expanded="True">
+            <Node name="RazorPagesMovie" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RazorPagesMovie PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
